@@ -22,8 +22,8 @@ ds[?]                   Step, over, source line
 dt[?]                   Display instruction traces (dtr=reset)
 dw [pid]                Block prompt until pid dies
 dx[?]                   Inject and run code on target process (See gs)
-db* > bps				Save breakpoints to a file
-. bpd					Load breakpoints from file
+db* > bps               Save breakpoints to a file
+. bpd                   Load breakpoints from file
 </code></pre>
 
 ## Information ##
