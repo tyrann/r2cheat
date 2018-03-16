@@ -1,7 +1,30 @@
 # r2cheat
 A radare2 cheat sheet compiled from various sources
 
-
+## Debug commands ##
+<pre><code>
+db[?]                   Breakpoints commands
+dbt[?]                  Display backtrace based on dbg.btdepth and dbg.btalgo
+dc[?]                   Continue execution
+dd[?]                   File descriptors (!fd in r1)
+de[-sc] [rwx] [rm] [e]  Debug with ESIL (see de?)
+dg [file]               Generate a core-file (WIP)
+dH [handler]            Transplant process to a new handler
+di[?]                   Show debugger backend information (See dh)
+dk[?]                   List, send, get, set, signal handlers of child
+dL [handler]            List or set debugger handler
+dm[?]                   Show memory maps
+do[?]                   Open process (reload, alias for 'oo')
+doo[args]               Reopen in debugger mode with args (alias for 'ood')
+dp[?]                   List, attach to process or thread id
+dr[?]                   Cpu registers
+ds[?]                   Step, over, source line
+dt[?]                   Display instruction traces (dtr=reset)
+dw [pid]                Block prompt until pid dies
+dx[?]                   Inject and run code on target process (See gs)
+db* > bps				Save breakpoints to a file
+. bpd					Load breakpoints from file
+</code></pre>
 
 ## Information ##
 <pre><code>
