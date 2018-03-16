@@ -1,5 +1,26 @@
 # r2cheat
 A radare2 cheat sheet compiled from various sources
+
+
+
+## Information ##
+<pre><code>
+iI:             File info
+iz:             Strings in data section
+izz:            Strings in the whole binary
+iS:             Sections
+                  iS~w returns writable sections
+                  
+is:             Symbols
+                  is~FUNC exports
+                  
+il:             Linked libraries
+ii:             Imports
+ie:             Entrypoint
+</code></pre>
+
+
+
 ## Write commands ##
 <pre><code>
 wx:             Write hex values in current offset
