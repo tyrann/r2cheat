@@ -101,3 +101,9 @@ axf:            Returns cross references from (xref from)
 
 </code></pre>
 
+
+## Visual Mode
+<pre><code>
+V:              Enter in Visual Mode
+|               Vertical split (i.e print stack: pxw 256 @esp)
+</code></pre>
